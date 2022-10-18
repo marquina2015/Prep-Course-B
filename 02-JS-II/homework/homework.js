@@ -149,13 +149,17 @@ function devolverString(str) {
     //Si el número es negativo, devolver ---> "Es negativo"
     //Si el número es 0, devuelve false
     // Tu código:
-      if (numero)>==0 {
-      }
-         
-        else {
-
+      if (numero===0) {
+          return ('false')
         }
-      }
+      else  if (numero>0){
+        return 'es positivo'
+        }
+        else {
+          return ' Es negatico'
+        }
+     
+    }
   
   function agregarSimboloExclamacion(str) {
     // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
